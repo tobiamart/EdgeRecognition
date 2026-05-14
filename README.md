@@ -6,7 +6,7 @@ Automatically counts and values Polish coins on a tray from a static photo. Uses
 
 | Input | Detected (green = on tray, red = off tray) |
 |-------|---------------------------------------------|
-| ![Input](assets/tray1.jpg) | ![Detected](assets/detected_example.jpg) |
+| ![Input](assets/tray7.jpg) | ![Detected](assets/detected_example.png) |
 
 ```
 ========================================

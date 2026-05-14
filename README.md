@@ -2,18 +2,18 @@
 
 Automatically counts and values Polish coins on a tray from a static photo. Uses **Canny edge detection** to find the tray boundary and **Hough Circle Transform** to detect individual coins, then reports total value in PLN — separately for coins on and off the tray.
 
-## Example Input / Output
+## Example Output
 
-| Input Photo | Detected Coins |
-|-------------|----------------|
-| ![Tray 1](assets/tray1.jpg) | ![Tray 2](assets/tray2.jpg) |
+| Input | Detected (green = on tray, red = off tray) |
+|-------|---------------------------------------------|
+| ![Input](assets/tray1.jpg) | ![Detected](assets/detected_example.jpg) |
 
 ```
 ========================================
 File: ./assets/tray1.jpg
 ========================================
-Na tacce   → Duże: 5, Małe: 1  (26.0 PLN)
-Poza tacką → Duże: 2, Małe: 1  (11.0 PLN)
+Na tacce   → Duże: 0, Małe: 5  (5.0 PLN)
+Poza tacką → Duże: 2, Małe: 3  (13.0 PLN)
 ```
 
 ## Sample Dataset

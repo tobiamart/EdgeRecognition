@@ -9,11 +9,15 @@ Automatically counts and values Polish coins on a tray from a static photo. Uses
 | ![Input](assets/tray7.jpg) | ![Detected](assets/detected_example.png) |
 
 ```
-========================================
-File: ./assets/tray1.jpg
-========================================
-Na tacce   → Duże: 0, Małe: 5  (5.0 PLN)
-Poza tacką → Duże: 2, Małe: 3  (13.0 PLN)
+------------------------------
+PODSUMOWANIE MONET:
+Na tacce   -> Duże: 2, Małe: 6
+Poza tacką -> Duże: 0, Małe: 4
+------------------------------
+PODSUMOWANIE KWOT:
+Kwota na tacce   : 10.3 PLN
+Kwota poza tacką : 0.2 PLN
+------------------------------
 ```
 
 ## Sample Dataset

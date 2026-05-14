@@ -56,7 +56,7 @@ HoughCircles(dp=1.2, minDist=40, param1=50, param2=50, r=20–80px)
 | Coin type | Radius threshold | Value |
 |-----------|-----------------|-------|
 | Large (e.g. 5 PLN) | > 34 px | 5.0 PLN |
-| Small (e.g. 1 PLN) | ≤ 34 px | 1.0 PLN |
+| Small (e.g. 5 gr) | ≤ 34 px | 0.05 PLN |
 
 Each detected circle center is tested against the tray contour using `pointPolygonTest` to determine if the coin is inside or outside.
 
